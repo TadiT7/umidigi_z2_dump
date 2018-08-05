@@ -1,0 +1,15 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=2018年 07月 26日 星期四 14:52:10 CST
+ro.bootimage.build.date.utc=1532587930
+ro.bootimage.build.fingerprint=UMIDIGI/Z2/Z2:8.1.0/O11019/1529639592:user/release-keys
+persist.sys.usb.config=none

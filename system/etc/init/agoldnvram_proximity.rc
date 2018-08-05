@@ -1,0 +1,11 @@
+
+#[AGOLD][spl][20120420] AGOLD_PROX_CALI_ENABLE
+service nvram_proximity /system/bin/agoldnvram_proximity
+    user root
+    group system
+    oneshot
+    disabled
+
+on property:init.svc.nvram_daemon=stopped
+    start nvram_proximity
+#[AGOLD][end]
